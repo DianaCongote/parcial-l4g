@@ -5,12 +5,12 @@ quitar=", : ; . ! ¡"
 for puntos in quitar:
     texto_palabras=texto_palabras.replace(puntos," ")
 texto_palabras = texto_palabras.lower()
-texto_palabras = texto_palabras.split()
-a=texto_palabras
+cadena_palabras = texto_palabras.split()
+a=cadena_palabras
 h=0
 contar = []
-for i in texto_palabras:
-    contar.append(contar.count(i))
+for i in cadena_palabras:
+    contar.append(cadena_palabras.count(i))
     h=h+1
 b=contar
 for k in range(h):
